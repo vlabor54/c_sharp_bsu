@@ -206,6 +206,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryStream", "BinaryStrea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archive", "Archive\Archive.csproj", "{D1A61576-C3D4-4468-B0D7-34AFF20D3419}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{B8076918-5D26-4729-BC14-519F684797C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -532,6 +534,10 @@ Global
 		{D1A61576-C3D4-4468-B0D7-34AFF20D3419}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1A61576-C3D4-4468-B0D7-34AFF20D3419}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1A61576-C3D4-4468-B0D7-34AFF20D3419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8076918-5D26-4729-BC14-519F684797C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8076918-5D26-4729-BC14-519F684797C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8076918-5D26-4729-BC14-519F684797C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8076918-5D26-4729-BC14-519F684797C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -620,6 +626,7 @@ Global
 		{B5F506DA-849F-421B-BC6D-9E720E613449} = {1B44387C-0A02-4A20-890B-E14867ABB5CC}
 		{BE7786E2-4D54-4403-9032-0BAB557BAA23} = {1B44387C-0A02-4A20-890B-E14867ABB5CC}
 		{D1A61576-C3D4-4468-B0D7-34AFF20D3419} = {1B44387C-0A02-4A20-890B-E14867ABB5CC}
+		{B8076918-5D26-4729-BC14-519F684797C0} = {7EEA7EED-6EFF-4DFA-9394-D7969204D604}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {183AC887-11D7-436A-A926-A885B8D5A4C8}

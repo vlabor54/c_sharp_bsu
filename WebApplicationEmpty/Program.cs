@@ -17,7 +17,7 @@ var app = builder.Build();
 // request  -> component1 -> component2 -> .. -> componentN
 // response <- component1 <- component2 <- .. <- componentN
 //WelcomePage - пример middlewear для отрисовки стартовой страницы
-//app.UseWelcomePage();
+app.UseWelcomePage();
 
 
 //Run - запускает терминальный компонент, после которого не будет дальнейшей обработки
@@ -121,6 +121,6 @@ app.Run(async (context) =>
 
 
 //Окончание обработки запроса
-//app.Run();
+app.Run();
 
 public record Person(string Name, int Age);
